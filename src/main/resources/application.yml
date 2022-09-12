@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres/spring-data-jdbc
+    driverClassName: org.postgresql.Driver
+    username: foo
+    password: foo
+    hikari:
+      schema: foo
+      maximum-pool-size: 5
+  flyway:
+    schemas: foo
